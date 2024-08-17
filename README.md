@@ -4,13 +4,19 @@ A JS script used to automatically draw and play cards in Fallen London.
 沦敦自动抽卡脚本，新手用JS写的。
 
 # How to Use
-Open Fallen London in the Chrome and then press F12 to open the Developer Tool. Click the "Console", then paste the code to it and "Enter".
+## drawcard.js
+Open Fallen London in the Chrome and then press F12 to open the Developer Tool. Click the "Console", then paste the code to it and "Enter". Remember to keep the page open and active.
 
 Make sure you're in the Marigold Station with a Hellworm. Don't be in any branch.
 
 在Chrome中打开Fallen London，然后按F12打开开发人员工具。点击“控制台”，将代码粘贴到其中，按下“Enter”运行。
 
 只有在The Marigold Station并且装备有Hellworm才能生效，不要点任何卡，就在The Marigold Station的主页面呆着。
+
+## Seek_out_spy-holes.js
+The same.
+
+Make sure you're in "Spelunking in the Sunken Embassy". Use this code and it will play "Seek out spy-holes" every ten minutes.
 
 # Usage
 
@@ -23,3 +29,7 @@ Hellworm card is very profitable. This shell can be used to draw and play it whe
 Coming soon...
 
 懒得写了……
+
+# Problem
+"setTimeout" and "setInterval" are not reliable for long tasks. It may help to set www.fallenlondon.com always active in Chrome setting.
+
